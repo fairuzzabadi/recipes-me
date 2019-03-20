@@ -1,4 +1,4 @@
-# meal-prep
+# Simple Learning Vue Js Application
 
 ## Project setup
 ```
