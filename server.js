@@ -7,7 +7,7 @@ const app = express();
 app.use('/', serveStatic(path.join(__dirname, '/dist')));
 // Catch all routes and redirect to the index file
 app.get('*', function(req, res) {
-    res.sendFile(__dirname + '/dist/index.html');
+    res.sendFile(__dirname + './dist/index.html');
 });
 // Create default port to serve the app on
 const port = process.env.PORT || 8080;
